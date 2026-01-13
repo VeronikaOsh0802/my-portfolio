@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
 
     <link
@@ -12,7 +13,7 @@
     />
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar container">
       <img src="/images/logo.svg" alt="Logo" />
       <nav class="navigation">
         <ul class="nav-list">
@@ -31,5 +32,32 @@
         </ul>
       </nav>
     </div>
+    <!--  ./navbar  -->
+    <header class="header container">
+      <img src="images/avatar.png" alt="Вероника Ощепкова" class="header-photo"></img>
+      <!-- /.header-photo -->
+       <div class="header-text">
+        <strong class="header-strong">Привет 👋</strong>
+        <h1 class="header-heading">
+           <span class="header-primary">Я фронтенд-разработчик и веб-дизайнер</span><br/>
+          Меня зовут Вероника Ощепкова и я делаю сайты для людей и компаний</h1>
+     <div class="header-links">
+      <ul class="social-list">
+        <li class="social-item"><a href="#" class="social-link"><img src="images/Icons/linkedin.svg" alt="linkedin" class="social-logo"></a></li>
+        <li class="social-item"><a href="#" class="social-link"><img src="images/Icons/twitter.svg" alt="twitter" class="social-logo"></a></li>
+        <li class="social-item"><a href="#" class="social-link"><img src="images/Icons/github.svg" alt="github" class="social-logo"></a></li>
+        <li class="social-item"><a href="#" class="social-link"><img src="images/Icons/stackoverflow.svg" alt="stackoverflow" class="social-logo"></a></li>
+        <li class="social-item"><a href="#" class="social-link"><img src="images/Icons/youtube.svg" alt="youtube" class="social-logo"></a></li>
+      </ul>
+      <a href="#" class="cv-download" download>
+        <img src="images/Icons/download.svg" alt="download-icon" class="cv-icon">
+        <span class="cv-text">Скачать резюме</span>
+      </a>
+     </div>
+     <!-- /.header-links -->
+       </div>
+       <!-- /.header-text -->
+    </header>
+    <!-- /.header -->
   </body>
 </html>
