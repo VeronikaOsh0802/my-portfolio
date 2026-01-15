@@ -84,7 +84,7 @@ header {
   line-height: 150%;
   border-bottom: 2px solid #bf7506;
 }
-cv-icon {
+.cv-icon {
   margin-right: 4px;
 }
 .section-header {
@@ -263,4 +263,14 @@ cv-icon {
 .button-group {
   display: flex;
   justify-content: flex-end;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #83807c;
 }
