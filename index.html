@@ -18,22 +18,22 @@
       <nav class="navigation">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#" class="nav-link active">Главная</a>
+            <a href="#main" class="nav-link active">Главная</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Проекты</a>
+            <a href="#portfolio" class="nav-link">Проекты</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Обо мне</a>
+            <a href="#developer" class="nav-link">Обо мне</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Связаться</a>
+            <a href="#feedback" class="nav-link">Связаться</a>
           </li>
         </ul>
       </nav>
     </div>
     <!--  ./navbar  -->
-    <header class="header container">
+    <header class="header container" id="main">
       <img src="images/avatar.png" alt="Вероника Ощепкова" class="header-photo"></img>
       <!-- /.header-photo -->
        <div class="header-text">
@@ -49,7 +49,7 @@
         <li class="social-item"><a href="#" class="social-link"><img src="images/Icons/stackoverflow.svg" alt="stackoverflow" class="social-logo"></a></li>
         <li class="social-item"><a href="#" class="social-link"><img src="images/Icons/youtube.svg" alt="youtube" class="social-logo"></a></li>
       </ul>
-      <a href="#" class="cv-download" download>
+      <a href="cv.pdf" class="cv-download" download>
         <img src="images/Icons/download.svg" alt="download-icon" class="cv-icon">
         <span class="cv-text">Скачать резюме</span>
       </a>
@@ -59,7 +59,7 @@
        <!-- /.header-text -->
     </header>
     <!-- /.header -->
-     <section class="portfolio">
+     <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="section-header">Последние проекты</h2>
         <div class="cards">
@@ -134,7 +134,7 @@
       <!-- /.container -->
      </section>
      <!-- /.portfolio -->
-      <section class="developer container">
+      <section class="developer container" id="developer">
         <img src="images/developer_photo.jpg" alt="Вероника Ощепкова" class="developer-photo">
         <div class="developer-about">
           <span class="developer-hello">Рада вас видеть</span>
@@ -166,7 +166,10 @@ Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
             </ul>
       </section>
             <!-- /.skills -->
-      <section class="feedback form-container">
+      <section class="feedback" id="feedback">
+        <img src="images/hand.png" alt="hand" class="feedback-hand">
+        <div class="form-container">
+        <!-- /.form-container -->
         <h2 class="feedback-title">Готов обсудить проект...</h2>
         <form action="#" class="form">
          <div class="input-group">     
@@ -189,6 +192,7 @@ Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
 </div>
 <!-- /.button-group -->
         </form>
+        </div>
       </section>
       <!-- /.feedback -->
 
